@@ -19,15 +19,15 @@ To download the very latest source from the Git server do this:
 Go to the directory where the downloaded files are located.
 The default settings can be edited.
 
---url=<url> The address of the new site.
+--url="url" The address of the new site.
 
---title=<site-title> The title of the new site.
+--title="site-title" The title of the new site.
 
---admin_user=<username> The name of the admin user.
+--admin_user="username" The name of the admin user.
 
---admin_password=<password> The password for the admin user. Defaults to randomly generated string.
+--admin_password="password" The password for the admin user. Defaults to randomly generated string.
 
---admin_email=<email> The email address for the admin user.
+--admin_email="email" The email address for the admin user.
 
 The default settings:
 
@@ -41,7 +41,7 @@ The default settings:
 
 --admin_email="admin@domain.com" 
 
-wp plugin install two-factor --activate Download, install and activate the plugin two-factor.
+wp plugin install two-factor --activate -> Download, install and activate the plugin two-factor.
 
 Run "docker-compose up -d" from your project directory.
 
