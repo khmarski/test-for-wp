@@ -53,6 +53,6 @@ log out and open http://localhost:8000/wp-admin/, checking autontification.
 SHUTDOWN AND ClEANUP
 --------------------
 
-The command docker-compose down removes the containers and default network, but preserves your WordPress database.
+The command "docker-compose down" removes the containers and default network, but preserves your WordPress database.
 
-The command docker-compose down --volumes removes the containers, default network, and the WordPress database. 
+The command "docker-compose down --volumes" removes the containers, default network, and the WordPress database. 
