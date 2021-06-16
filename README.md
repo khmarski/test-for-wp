@@ -18,17 +18,26 @@ To download the very latest source from the Git server do this:
 
 Go to the directory where the downloaded files are located.
 The default settings can be edited.
+
 --url=<url> The address of the new site.
+
 --title=<site-title> The title of the new site.
+
 --admin_user=<username> The name of the admin user.
+
 --admin_password=<password> The password for the admin user. Defaults to randomly generated string.
+
 --admin_email=<email> The email address for the admin user.
 
 The default settings:
---url="localhost:8000" 
+--url="localhost:8000"
+ 
 --title="test deploy wp" 
+
 --admin_user="admin" 
+
 --admin_password="admin@pass" 
+
 --admin_email="admin@domain.com" 
 
 Run "docker-compose up -d" from your project directory.
