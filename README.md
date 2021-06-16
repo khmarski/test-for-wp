@@ -30,6 +30,7 @@ The default settings can be edited.
 --admin_email=<email> The email address for the admin user.
 
 The default settings:
+
 --url="localhost:8000"
  
 --title="test deploy wp" 
@@ -40,11 +41,13 @@ The default settings:
 
 --admin_email="admin@domain.com" 
 
+wp plugin install two-factor --activate Download, install and activate the plugin two-factor.
+
 Run "docker-compose up -d" from your project directory.
 
-Open http://localhost:8000/wp-admin/ in a web browser.
-Users -> All users -> select the admin user (for example)  -> scroll to
-Two-Factor Options and enable Two-Factor Authentication	for user.
+Open http://localhost:8000/wp-admin/ in a web browser and then Users -> All users -> select the admin user (for example). 
+
+Scroll to Two-Factor Options and enable Two-Factor Authentication for user.
 log out and open http://localhost:8000/wp-admin/, checking autontification.
 
 SHUTDOWN AND ClEANUP
