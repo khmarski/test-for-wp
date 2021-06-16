@@ -45,7 +45,7 @@ wp plugin install two-factor --activate -> Download, install and activate the pl
 
 Run "docker-compose up -d" from your project directory.
 
-Open http://localhost:8000/wp-admin/ in a web browser and then Users -> All users -> select the admin user (for example). 
+Open http://localhost:8000/wp-admin/ in a web browser and then -> Users -> All users -> select the admin user (for example). 
 
 Scroll to Two-Factor Options and enable Two-Factor Authentication for user.
 log out and open http://localhost:8000/wp-admin/, checking autontification.
@@ -54,4 +54,5 @@ SHUTDOWN AND ClEANUP
 --------------------
 
 The command docker-compose down removes the containers and default network, but preserves your WordPress database.
+
 The command docker-compose down --volumes removes the containers, default network, and the WordPress database. 
