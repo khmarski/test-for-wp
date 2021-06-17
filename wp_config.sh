@@ -15,4 +15,4 @@ do
     exit 1
   fi
 done
-wp plugin install two-factor --activate
+wp plugin install two-factor --activate 
