@@ -1,5 +1,5 @@
 ABOUT
-=============================
+-----
 
 Deploy and initialize Wordpress with the two-factor authentication plugin installed.
 
@@ -46,7 +46,8 @@ Run "docker-compose up -d" from your project directory.
 
 Open http://localhost:8000/wp-admin/ in a web browser and then -> Users -> All users -> select the admin user (for example). 
 
-Scroll to Two-Factor Options and enable Two-Factor Authentication for user.
+Scroll to Two-Factor Options and enable Two-Factor Authentication for user and update profile.
+
 log out and open http://localhost:8000/wp-admin/, checking autontification.
 
 SHUTDOWN AND ClEANUP
