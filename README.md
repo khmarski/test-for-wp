@@ -1,5 +1,4 @@
-# test-for-wp
-About
+ABOUT
 =============================
 
 Deploy and initialize Wordpress with the two-factor authentication plugin installed.
